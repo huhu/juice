@@ -1,6 +1,7 @@
 # Juice
 
-<img align="right" width="100" height="100" src="/static/juice.svg">
+
+<img align="right" width="150" height="150" src="/static/juice.svg">
 
 **Juice** is an intuitive, elegant, and responsive Zola™ theme for product sites.
 
@@ -26,7 +27,7 @@ theme = "juice"
 
 # Structure
 
-## Hero
+### Hero
 
 **Juice** is designed for product websites, hence we let **hero** part fills whole of screen.
 You can customize your **hero** by using `hero` block in the `index.html`.
@@ -39,7 +40,7 @@ You can customize your **hero** by using `hero` block in the `index.html`.
 {% endblock hero %}
 ```
 
-## Page
+### Page
 
 Every markdown file located in `content` directory will become a **Page**. There also will display as
 a navigate link on the top-right corner. 
@@ -54,7 +55,7 @@ weight = 3
 
 ```
 
-## External nav links
+### External nav links
 
 If you need add external navigate links, you should customize the `render_header` macro. 
 Just like this:
