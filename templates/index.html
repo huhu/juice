@@ -89,7 +89,7 @@
     function highlightNav(heading) {
         let pathname = location.pathname;
         document.querySelectorAll(".toc a").forEach((item) => {
-            item.classList.remove("active")
+            item.classList.remove("active");
         });
         document.querySelector(".toc a[href='" + pathname + "#" + heading + "']").classList.add("active");
     }

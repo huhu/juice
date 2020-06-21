@@ -3,8 +3,6 @@ title = "Juice"
 sort_by = "weight"
 +++
 
-![](juice-small.svg)
-
 # Juice
 
 **Juice** is an intuitive, elegant, and responsive Zola™ theme for product sites.
