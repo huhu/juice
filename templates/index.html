@@ -19,12 +19,12 @@
     <header class="pos-absolute" style="background-color: transparent" ;>
         {{ macros::render_header() }}
     </header>
-    {% block hero %}
 
     <div class="hero">
+        {% block hero %}
         <section style="padding: 0 2rem">
             <h1 class="text-center heading-text">
-                An intuitive, elegant and lightweight Zola™ theme for product site.
+                An intuitive, elegant and lightweight Zola™ theme for product sites.
             </h1>
             <h3 class="text" style="text-align: center;">
                 By Huhu.io.
@@ -36,8 +36,8 @@
             onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
             Explore More ⇩
         </div>
+        {% endblock hero %}
     </div>
-    {% endblock hero %}
 
     {% endblock header %}
 
