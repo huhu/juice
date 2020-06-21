@@ -14,5 +14,9 @@ highlight_theme = "inspired-github"
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+[author]
+name = "Huhu teams"
+homepage = "https://huhu.io"
+
 [extra]
 # Put all your custom variables here

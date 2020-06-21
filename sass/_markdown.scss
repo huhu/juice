@@ -29,7 +29,7 @@
 }
 
 .content a {
-  color: #dd4814;
+  color: $primary-link-color;
 
   &:hover {
     text-decoration: underline;

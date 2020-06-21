@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#F9BB2D">
     {% block head %}
     {% endblock head %}
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
@@ -23,15 +22,15 @@
     {% block hero %}
 
     <div class="hero">
-        <section style="padding:10px">
+        <section style="padding: 0 2rem">
             <h1 class="text-center heading-text">
-                Intuitive, elegant and lightweight Zola™ theme for product site.
+                An intuitive, elegant and lightweight Zola™ theme for product site.
             </h1>
             <h3 class="text" style="text-align: center;">
                 By Huhu.io.
             </h3>
         </section>
-        <img  src="{{ get_url(path="juice.svg") }}">
+        <img style="width: 50%" src="{{ get_url(path="juice.svg") }}">
 
         <div class="explore-more text"
             onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
