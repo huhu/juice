@@ -22,20 +22,41 @@
 
     <div class="hero">
         {% block hero %}
-        <section style="padding: 0 2rem">
-            <h1 class="text-center heading-text">
-                An intuitive, elegant and lightweight Zola™ theme for product sites.
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+        <section class="text-center">
+            <h1 class="heading-text" style="font-size: 50px">
+                Build your static website
             </h1>
-            <h3 class="text" style="text-align: center;">
-                By Huhu.io.
+            <h3 class="title-text">
+                <b>Juice</b> is an intuitive, elegant, and lightweight Zola™ theme for product websites.
             </h3>
+            <div>
+                <a class="github-button" href="https://github.com/huhu/juice" data-size="large" data-show-count="true"
+                   aria-label="Star huhu/juice on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/huhu/juice/fork" data-size="large"
+                   data-show-count="true" aria-label="Fork huhu/juice on GitHub">Fork</a>
+            </div>
         </section>
-        <img style="width: 50%" src="{{ get_url(path="juice.svg") }}">
+        <img class="hero-image" style="width: 50%" src="{{ get_url(path="juice.svg") }}">
 
         <div class="explore-more text"
             onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
             Explore More ⇩
         </div>
+        <style>
+            .hero section {
+                padding: 0 5rem;
+            }
+            @media screen and (max-width: 768px) {
+                .hero section {
+                    padding: 0 2rem;
+                }
+
+                .hero-image {
+                    display: none
+                }
+            }
+        </style>
         {% endblock hero %}
     </div>
 
