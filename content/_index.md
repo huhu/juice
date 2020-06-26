@@ -57,6 +57,19 @@ weight = 3
 
 ```
 
+### Color
+
+You can customize theme color at [sass/_variables.scss](https://github.com/huhu/juice/tree/master/sass/_variables.scss).
+
+```scss
+$primary-color: #FED43F; // Primary theme color
+$primary-text-color: #543631; // Primary theme text color
+$primary-link-color: #F9BB2D; // Primary theme link color
+
+$secondary-color: #fcfaf6; // Secondary color: the background body color
+$secondary-text-color: #303030;
+```
+
 # Contributing
 
 Thank you very much for considering contributing to this project!
