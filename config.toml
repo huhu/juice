@@ -16,4 +16,6 @@ build_search_index = false
 
 
 [extra]
-# Put all your custom variables here
+juice_extra_menu = [
+    { text = "Github", link = "https://github.com/huhu/juice"}
+]

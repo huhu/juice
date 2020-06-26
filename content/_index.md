@@ -57,20 +57,6 @@ weight = 3
 
 ```
 
-### External nav links
-
-If you need add external navigate links, you should customize the `render_header` macro. 
-Just like this:
-
-```html
-<nav>
-    {% for page in section.pages %}
-    <a class="nav-item subtitle-text" href="{{ page.permalink }}">{{ page.title }}</a>
-    {% endfor %}
-    <a class="nav-item subtitle-text" href="https://github.com/huhu/juice">Github</a>
-</nav>
-```
-
 # Contributing
 
 Thank you very much for considering contributing to this project!
