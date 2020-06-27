@@ -15,6 +15,8 @@ sort_by = "weight"
 
 # Installation
 
+> **Zola** is a prerequisite. Please refer to the [Zola installation](https://www.getzola.org/documentation/getting-started/installation/) docs.
+
 First download this theme to your `themes` directory:
 
 ```bash
