@@ -19,6 +19,10 @@ Here are some steps to help you get started:
 Here are some product websites which use **Juice** as the theme.
 Sort by lexicographical order. 
 
+## Go Search Extension
+
+Link: [https://go-search-extension.now.sh/](https://go-search-extension.now.sh/)
+
 ## Rust Search Extension
 
 ![](/showcases/rust-search-extension.png)
