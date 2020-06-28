@@ -19,5 +19,5 @@ build_search_index = false
 juice_logo_name = "Juice"
 juice_logo_path = "juice.svg"
 juice_extra_menu = [
-    { text = "Github", link = "https://github.com/huhu/juice"}
+    { title = "Github", link = "https://github.com/huhu/juice"}
 ]

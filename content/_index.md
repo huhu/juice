@@ -72,6 +72,19 @@ $secondary-color: #fcfaf6; // Secondary color: the background body color
 $secondary-text-color: #303030;
 ```
 
+# Configuration
+
+You can customize some builtin property in `config.toml` file:
+
+```toml
+[extra]
+juice_logo_name = "Juice"
+juice_logo_path = "juice.svg"
+juice_extra_menu = [
+    { title = "Github", link = "https://github.com/huhu/juice"}
+]
+```
+
 # Contributing
 
 Thank you very much for considering contributing to this project!

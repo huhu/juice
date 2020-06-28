@@ -13,7 +13,7 @@
     {% endfor %}
     {% if config.extra.juice_extra_menu %}
         {% for menu in config.extra.juice_extra_menu %}
-        <a class="nav-item subtitle-text" href="{{ menu.link }}">{{ menu.text }}</a>
+        <a class="nav-item subtitle-text" href="{{ menu.link }}">{{ menu.title }}</a>
         {% endfor %}
     {% endif %}
 </nav>
