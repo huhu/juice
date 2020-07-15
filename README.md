@@ -77,9 +77,3 @@ We appreciate any form of contribution:
 
 - New issues (feature requests, bug reports, questions, ideas, ...)
 - Pull requests (documentation improvements, code improvements, new features, ...)
-
-# Who adopts Juice
-
-Here is a list of product websites who adopts **Juice** theme:
-
-- [Rust Search Extension](https://rust-search-extension.now.sh/)
