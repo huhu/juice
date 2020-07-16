@@ -55,19 +55,38 @@ weight = 3
 
 ```
 
-### Color
+### CSS variables
 
-You can customize theme color at [sass/_variables.scss](https://github.com/huhu/juice/tree/master/sass/_variables.scss).
+You can override theme variable by creating a file named `_variables.html` in your `templates` directory.
 
-```scss
-$primary-color: #FED43F; // Primary theme color
-$primary-text-color: #543631; // Primary theme text color
-$primary-link-color: #F9BB2D; // Primary theme link color
-
-$secondary-color: #fcfaf6; // Secondary color: the background body color
-$secondary-text-color: #303030;
+```html
+<style>
+    :root {
+        /* Primary theme color */
+        --primary-color: #FED43F;
+        /* Primary theme text color */
+        --primary-text-color: #543631;
+        /* Primary theme link color */
+        --primary-link-color: #F9BB2D;
+        /* Secondary color: the background body color*/
+        --secondary-color: #fcfaf6;
+        --secondary-text-color: #303030;
+    }
+</style>
 ```
 
+# Configuration
+
+You can customize some builtin property in `config.toml` file:
+
+```toml
+[extra]
+juice_logo_name = "Juice"
+juice_logo_path = "juice.svg"
+juice_extra_menu = [
+    { title = "Github", link = "https://github.com/huhu/juice"}
+]
+```
 
 # Contributing
 
