@@ -7,17 +7,17 @@
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% include "_variables.html" %}
-    {% block head %}
-    {% endblock head %}
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
+    {% block head %}
+    {% endblock head %}
 </head>
 
 <body>
     {% block header %}
 
-    <header class="pos-absolute" style="background-color: transparent" ;>
+    <header class="pos-absolute" style="background-color: transparent">
         {{ macros::render_header() }}
     </header>
 
