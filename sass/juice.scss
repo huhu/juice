@@ -1,4 +1,3 @@
-@import "_variables";
 @import "_ultility.scss";
 @import "_text.scss";
 @import "_markdown.scss";
@@ -7,7 +6,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: $secondary-color;
+  background-color: var(--secondary-color);
 }
 
 a {
@@ -28,7 +27,7 @@ p > img {
 }
 
 header {
-  background-color: $primary-color;
+  background-color: var(--primary-color);
   color: black;
   padding: 20px 50px;
   display: flex;
@@ -39,7 +38,7 @@ header {
 .logo {
   font-family: "Alfa Slab One", serif;
   font-size: 32px;
-  color: $primary-text-color;
+  color: var(--primary-text-color);
   display: flex;
   align-items: center;
   margin: 0 40px;
@@ -67,7 +66,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100vh;
-  background-color: $primary-color;
+  background-color: var(--primary-color);
   overflow-x: hidden;
   padding: 0 40px;
 
@@ -94,7 +93,7 @@ main {
   }
 
   .toc-item a, .toc-item-child a {
-    color: $secondary-text-color;
+    color: var(--secondary-text-color);
 
     &:hover {
       cursor: pointer;
@@ -115,7 +114,7 @@ main {
 
 .toc-sticky {
   border-radius: 3px;
-  border-top: 5px solid $primary-color;
+  border-top: 5px solid var(--primary-color);
   background-color: white;
   position: sticky;
   position: -webkit-sticky;

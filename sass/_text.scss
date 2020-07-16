@@ -1,19 +1,17 @@
-@import "_variables.scss";
-
 .heading-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 32px;
   font-weight: 600;
   padding: 10px 0 25px 0;
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 
 h1, .title-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 25px;
   font-weight: 500;
-  color: $primary-text-color;
-  border-left: $primary-color 8px solid;
+  color: var(--primary-text-color);
+  border-left: var(--primary-color) 8px solid;
   padding-left: 10px;
 }
 
@@ -21,7 +19,7 @@ h2, .subtitle-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 
 .text {
@@ -30,7 +28,7 @@ h2, .subtitle-text {
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0.2px;
-  color: $primary-text-color;
+  color: var(--primary-text-color);
 }
 
 .subtext {
