@@ -102,7 +102,7 @@ main {
   }
 
   .toc-item a.active, .toc-item-child a.active {
-    color: #d46e13;;
+    color: var(--toc-highlight-text-color);
   }
 
   .toc-item-child {
