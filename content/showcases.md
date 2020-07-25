@@ -21,6 +21,8 @@ Sort by lexicographical order.
 
 ## Go Search Extension
 
+![](/showcases/go-search-extension.png)
+
 Link: [https://go-search-extension.now.sh/](https://go-search-extension.now.sh/)
 
 ## Rust Search Extension
