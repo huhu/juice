@@ -1,6 +1,5 @@
 # Juice
 
-
 <img align="right" width="150" height="150" src="/static/juice.svg">
 
 **Juice** is an intuitive, elegant, and responsive Zola™ theme for product sites.
@@ -11,6 +10,8 @@
 - Responsive and mobile device compatible
 - Customize and extend friendly
 
+https://juice.huhu.io
+
 # Installation
 
 First download this theme to your `themes` directory:
@@ -19,6 +20,12 @@ First download this theme to your `themes` directory:
 $ cd themes
 $ git clone https://github.com/huhu/juice.git
 ```
+
+or add as a submodule
+```bash
+$ git submodule add https://github.com/huhu/juice  themes/juice
+```
+
 and then enable it in your `config.toml`:
 
 ```toml
