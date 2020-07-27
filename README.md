@@ -57,7 +57,7 @@ You can change the frontmatter's `weight` value to sort the order (ascending ord
 +++
 title = "Changelog"
 description = "Changelog"
-weight = 3
+weight = 2
 +++
 
 ```

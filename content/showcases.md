@@ -1,7 +1,7 @@
 +++
 title = "Showcases"
 description = "Showcases"
-weight = 2
+weight = 1
 +++
 
 # Pull request

@@ -1,7 +1,7 @@
 +++
 title = "Changelog"
 description = "Changelog"
-weight = 3
+weight = 2
 +++
 
 # v0.7 - 2020-07-01
