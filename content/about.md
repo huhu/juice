@@ -6,7 +6,7 @@ weight = 4
 
 # Juice
 
-**Juice** is an intuitive, elegant, and responsive Zola™ theme for product sites.
+**Juice** is an intuitive, elegant, and responsive Zola theme for product sites.
 Built by [Huhu.io](https://huhu.io), adopted by a several product sites.
 
 # Logo

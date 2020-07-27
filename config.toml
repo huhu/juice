@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "/"
 
-title = "Juice - An intuitive, elegant, and lightweight Zola™ theme for product sites."
+title = "Juice - An intuitive, elegant, and lightweight Zola theme for product sites."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

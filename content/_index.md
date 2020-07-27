@@ -5,7 +5,7 @@ sort_by = "weight"
 
 # Juice
 
-**Juice** is an intuitive, elegant, and responsive Zola™ theme for product sites.
+**Juice** is an intuitive, elegant, and responsive Zola theme for product sites.
 
 - Build for product sites
 - Simple and intuitive structure
@@ -23,6 +23,12 @@ First download this theme to your `themes` directory:
 $ cd themes
 $ git clone https://github.com/huhu/juice.git
 ```
+
+or add as a submodule
+```bash
+$ git submodule add https://github.com/huhu/juice  themes/juice
+```
+
 and then enable it in your `config.toml`:
 
 ```toml
@@ -59,7 +65,7 @@ weight = 3
 
 ```
 
-### CSS Variables
+### CSS variables
 
 You can override theme variable by creating a file named `_variables.html` in your `templates` directory.
 

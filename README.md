@@ -2,7 +2,7 @@
 
 <img align="right" width="150" height="150" src="/static/juice.svg">
 
-**Juice** is an intuitive, elegant, and responsive Zola™ theme for product sites.
+**Juice** is an intuitive, elegant, and responsive Zola theme for product sites.
 
 - Build for product sites
 - Simple and intuitive structure
