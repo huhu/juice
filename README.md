@@ -97,6 +97,10 @@ juice_extra_menu = [
 ]
 ```
 
+# Showcases
+
+Please see the [showcases page](/showcases).
+
 # Contributing
 
 Thank you very much for considering contributing to this project!
