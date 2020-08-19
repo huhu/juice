@@ -23,10 +23,10 @@ Sort by lexicographical order.
 
 ![](/showcases/go-search-extension.png)
 
-Link: [https://go-search-extension.now.sh/](https://go-search-extension.now.sh/)
+Link: [https://go.extension.sh/](https://go.extension.sh/)
 
 ## Rust Search Extension
 
 ![](/showcases/rust-search-extension.png)
 
-Link: [https://rust-search-extension.now.sh/](https://rust-search-extension.now.sh/)
+Link: [https://rust.extension.sh/](https://rust.extension.sh/)
