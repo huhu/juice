@@ -66,14 +66,14 @@
 
     <main>
         {% block toc %}
+        {% if section.toc %}
+        {% set toc = section.toc %}
+        {% elif page.toc %}
+        {% set toc = page.toc %}
+        {% endif %}
+        {% if toc %}
         <div class="toc">
             <div class="toc-sticky">
-                {% if section.toc %}
-                {% set toc = section.toc %}
-                {% elif page.toc %}
-                {% set toc = page.toc %}
-                {% endif %}
-                {% if toc %}
                 {% for h in toc %}
                 <div class="toc-item">
                     <a class="subtext" href="{{h.permalink | safe}}">{{ h.title }}</a>
@@ -86,9 +86,9 @@
                 {% endfor %}
                 {% endif %}
                 {% endfor %}
-                {% endif %}
             </div>
         </div>
+        {% endif %}
         {% endblock toc %}
 
         <div class="content text">
