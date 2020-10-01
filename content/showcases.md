@@ -19,6 +19,12 @@ Here are some steps to help you get started:
 Here are some product websites which use **Juice** as the theme.
 Sort by lexicographical order. 
 
+## C/C++ Search Extension
+
+![](/showcases/cpp-search-extension.png)
+
+Link: [https://cpp.extension.sh/](https://cpp.extension.sh/)
+
 ## Go Search Extension
 
 ![](/showcases/go-search-extension.png)
