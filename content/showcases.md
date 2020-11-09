@@ -21,18 +21,18 @@ Sort by lexicographical order.
 
 ## C/C++ Search Extension
 
-![](/showcases/cpp-search-extension.png)
+![](/cpp-search-extension.png)
 
 Link: [https://cpp.extension.sh/](https://cpp.extension.sh/)
 
 ## Go Search Extension
 
-![](/showcases/go-search-extension.png)
+![](/go-search-extension.png)
 
 Link: [https://go.extension.sh/](https://go.extension.sh/)
 
 ## Rust Search Extension
 
-![](/showcases/rust-search-extension.png)
+![](/rust-search-extension.png)
 
 Link: [https://rust.extension.sh/](https://rust.extension.sh/)
