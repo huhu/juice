@@ -140,6 +140,13 @@ footer {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .content {
+    max-width: 60%;
+    min-width: 800px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
     padding: 10px 30px;
