@@ -4,17 +4,11 @@ description = "Changelog"
 weight = 2
 +++
 
-# v0.4.3 - 2021-03-02
+# v0.5.0 - 2021-03-02
 
 - Add `issue` shortcode.
-
-# v0.4.2 - 2021-02-07
-
 - Add `sidebar` block.
 - Adjust blockquote background color.
-
-# v0.4.1 - 2021-01-07
-
 - Fix explore-more class left align.
 
 # v0.4.0 - 2020-11-18
