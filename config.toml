@@ -21,3 +21,4 @@ juice_logo_path = "juice.svg"
 juice_extra_menu = [
     { title = "Github", link = "https://github.com/huhu/juice" }
 ]
+repository_url = "https://github.com/huhu/juice"
