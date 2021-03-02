@@ -95,7 +95,16 @@ juice_logo_path = "juice.svg"
 juice_extra_menu = [
     { title = "Github", link = "https://github.com/huhu/juice"}
 ]
+repository_url = "https://github.com/huhu/juice"
 ```
+
+# Shortcodes
+
+**Juice** have some builtin shortcodes available in `templates/shortcodes` directory.
+
+- `issue(id)` - A shortcode to render issue url, e.g. `issue(id=1)` would render to the link `https://github.com/huhu/juice/issue/1`.
+
+> The `repository_url` is required.
 
 # Showcases
 

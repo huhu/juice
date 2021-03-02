@@ -4,59 +4,39 @@ description = "Changelog"
 weight = 2
 +++
 
-# v0.7 - 2020-07-01
+# v0.4.3 - 2021-03-02
 
-- Introduction 1
-- New Features:
-    - feature 1
-- Bugfix:
-    - Fix bug #10
-    - Fix bug #11 
+- Add `issue` shortcode.
 
-# v0.6 - 2020-06-01
+# v0.4.2 - 2021-02-07
 
-- Introduction 1
-- New Features:
-    - feature 1
-- Bugfix:
-    - Fix bug #8
-    - Fix bug #9
-    
-# v0.5 - 2020-05-01
+- Add `sidebar` block.
+- Adjust blockquote background color.
 
-- Introduction 1
-- New Features:
-    - feature 1
-- Bugfix:
-    - Fix bug #6
-    - Fix bug #7
-    
-# v0.4 - 2020-04-01
+# v0.4.1 - 2021-01-07
 
-- Introduction 1
-- New Features:
-    - feature 1
-- Bugfix:
-    - Fix bug #4
-    - Fix bug #5
+- Fix explore-more class left align.
 
-# v0.3 - 2020-03-01
+# v0.4.0 - 2020-11-18
 
-- Introduction 1
-- New Features:
-    - feature 1
-- Bugfix:
-    - Fix bug #2
-    - Fix bug #3
-    
-# v0.2 - 2020-02-04
+- Prevent showcase images be included by downstream Zola project.
+- Fix TOC highlight in localhost mode. See {{ issue(id=1) }}.
+- Hide TOC for empty markdown content page.
 
-- Introduction 1
-- New Features:
-    - feature 1
-- Bugfix:
-    - Fix bug #1
-    
-# v0.1 - 2020-01-01
+# v0.3.0 - 2020-07-17
+
+- Rename css filename to avoid conflicts.
+- Replace sass variables with css variable.
+- Add `--toc-highlight-text-color` variable.
+- Add normalize.css.
+ 
+# v0.2.0 - 2020-06-28
+
+- Add extra juice_extra_menu config.
+- Add color customization CSS variables.
+- Improve docs and blockquote style.
+- Support customize logo and name.
+
+# v0.1.0 - 2020-06-21
 
 - First release!
