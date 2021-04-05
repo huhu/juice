@@ -40,9 +40,10 @@ theme = "juice"
 ### Hero
 
 **Juice** is designed for product websites, hence we let **hero** part fills whole of screen.
-You can customize your **hero** by using `hero` block in the `index.html`.
+You can customize your **hero** by using `hero` block in the `templates/index.html`.
 
 ```html
+{% extends "juice/templates/index.html" %}
 {% block hero %}
     <div>
         Your cool hero html...
