@@ -40,6 +40,7 @@ theme = "juice"
 You can customize your **hero** by using `hero` block in the `index.html`.
 
 ```html
+{% extends "juice/templates/index.html" %}
 {% block hero %}
     <div>
         Your cool hero html...
@@ -108,7 +109,7 @@ repository_url = "https://github.com/huhu/juice"
 
 # Showcases
 
-Please see the [showcases page](/showcases).
+Please see the [showcases page](https://juice.huhu.io/showcases).
 
 # Contributing
 
