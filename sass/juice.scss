@@ -7,6 +7,10 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--secondary-color);
+  justify-content:space-between;
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
 }
 
 a {
