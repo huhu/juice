@@ -7,10 +7,9 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--secondary-color);
-  justify-content:space-between;
-  display:flex;
-  flex-direction:column;
-  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a {
@@ -84,6 +83,7 @@ header {
 main {
   display: flex;
   padding: 50px 100px;
+  flex-grow: 1;
 
   .toc {
     max-width: 260px;
