@@ -88,6 +88,15 @@ You can override theme variable by creating a file named `_variables.html` in yo
 </style>
 ```
 
+### Favicon
+
+```html
+{% extends "juice/templates/index.html" %}
+{% block favicon %}
+    <link rel="icon" type="image/png" href="/favicon.ico">
+{% endblock favicon %}
+```
+
 # Configuration
 
 You can customize some builtin property in `config.toml` file:
