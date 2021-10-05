@@ -4,6 +4,13 @@ description = "Changelog"
 weight = 2
 +++
 
+# v0.6.0 - 2021-10-05
+
+- Add `favicon` block.
+- Always align footer bottom. {{ issue(id=4) }}
+- Support config favicon. Fixes {{ issue(id=5) }}.
+- Table of Content supports auto-scroll if the list is too long.
+
 # v0.5.0 - 2021-03-02
 
 - Add `issue` shortcode.
