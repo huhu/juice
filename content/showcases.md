@@ -16,7 +16,11 @@ Here are some steps to help you get started:
 # Gallery
 
 Here are some product websites which use **Juice** as the theme.
-Sort by lexicographical order. 
+Sort by lexicographical order. For more showcases, please visit [here](https://github.com/search?l=&p=1&q=theme+%3D+%22juice%22+filename%3Aconfig.toml&ref=advsearch&type=Code).
+
+## Arara
+
+[https://islandoftex.gitlab.io/arara/](https://islandoftex.gitlab.io/arara/)
 
 ## Angular Rust
 
@@ -26,17 +30,41 @@ Sort by lexicographical order.
 
 [https://cpp.extension.sh/](https://cpp.extension.sh/)
 
+## Drogue IOT
+
+[https://www.drogue.io/](https://www.drogue.io/)
+
 ## El Monitorro
 
 [https://elmonitorro.badykov.com/](https://elmonitorro.badykov.com/)
+
+## Godot-rust
+
+[https://godot-rust.github.io/](https://godot-rust.github.io/)
+
+## GoToFix (JP)
+
+[https://gotofix.kumassy.com/](https://gotofix.kumassy.com/)
 
 ## Go Search Extension
 
 [https://go.extension.sh/](https://go.extension.sh/)
 
+## Gradecoin
+
+[https://gradecoin.xyz/](https://gradecoin.xyz/)
+
 ## Insta.rs
 
 [https://insta.rs/](https://insta.rs/)
+
+## Instant markdown
+
+[https://instant-markdown.github.io/](https://instant-markdown.github.io/)
+
+## ImpftHessen (DE)
+
+[https://impft-hessen.de/](https://impft-hessen.de/)
 
 ## JS Search Extension
 
@@ -50,6 +78,10 @@ Sort by lexicographical order.
 
 [https://stitcherd.vhodges.dev/](https://stitcherd.vhodges.dev/)
 
+## Streamson
+
+[https://streamson.henek.name/](https://streamson.henek.name/)
+
 ## Tokay lang
 
 [https://tokay.dev](https://tokay.dev)
@@ -57,6 +89,10 @@ Sort by lexicographical order.
 ## Trunk
 
 [https://trunkrs.dev/](https://trunkrs.dev/)
+
+## Vidar
+
+[https://calebsacks.me/vidar/](https://calebsacks.me/vidar/)
 
 ## zDevelopers
 
