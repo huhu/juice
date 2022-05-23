@@ -70,6 +70,10 @@ Sort by lexicographical order. For more showcases, please visit [here](https://g
 
 [https://js.extension.sh/](https://js.extension.sh/)
 
+## Fun Notation
+
+[https://www.notation.fun/](https://www.notation.fun/)
+
 ## Rust Search Extension
 
 [https://rust.extension.sh/](https://rust.extension.sh/)
