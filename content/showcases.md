@@ -18,6 +18,10 @@ Here are some steps to help you get started:
 Here are some product websites which use **Juice** as the theme.
 Sort by lexicographical order. For more showcases, please visit [here](https://github.com/search?l=&p=1&q=theme+%3D+%22juice%22+filename%3Aconfig.toml&ref=advsearch&type=Code).
 
+## Acton Lang
+
+[https://www.acton-lang.org/](https://www.acton-lang.org/)
+
 ## Arara
 
 [https://islandoftex.gitlab.io/arara/](https://islandoftex.gitlab.io/arara/)
@@ -26,9 +30,21 @@ Sort by lexicographical order. For more showcases, please visit [here](https://g
 
 [https://angular-rust.github.io/](https://angular-rust.github.io/)
 
+## Atlas Language
+
+[https://atlas-language.github.io/](https://atlas-language.github.io/)
+
+## Avatar CLI
+
+[https://avatar-cli.dev/](https://avatar-cli.dev/)
+
 ## C/C++ Search Extension
 
 [https://cpp.extension.sh/](https://cpp.extension.sh/)
+
+## Crow Translate
+
+[https://crow-translate.github.io/](https://crow-translate.github.io/)
 
 ## Drogue IOT
 
@@ -37,6 +53,10 @@ Sort by lexicographical order. For more showcases, please visit [here](https://g
 ## El Monitorro
 
 [https://elmonitorro.badykov.com/](https://elmonitorro.badykov.com/)
+
+## Erg Lang
+
+[https://erg-lang.org/](https://erg-lang.org/)
 
 ## Godot-rust
 
@@ -73,6 +93,10 @@ Sort by lexicographical order. For more showcases, please visit [here](https://g
 ## Fun Notation
 
 [https://www.notation.fun/](https://www.notation.fun/)
+
+## PeopleForBike
+
+[https://peopleforbikes.github.io/](https://peopleforbikes.github.io/)
 
 ## Rust Search Extension
 
