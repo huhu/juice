@@ -1,6 +1,7 @@
 +++
 title = "exclude_from_nav"
 description = "Page without nav link"
+weight = 3
 +++
 
 # Hidden page
