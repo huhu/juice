@@ -6,7 +6,7 @@
 
 - Build for product sites
 - Simple and intuitive structure
-- Clean and elegant design 
+- Clean and elegant design
 - Responsive and mobile device compatible
 - Customize and extend friendly
 
@@ -51,7 +51,7 @@ You can customize your **hero** by using `hero` block in the `index.html`.
 ### Page
 
 Every markdown file located in `content` directory will become a **Page**. There also will display as
-a navigate link on the top-right corner. 
+a navigate link on the top-right corner.
 You can change the frontmatter's `weight` value to sort the order (ascending order).
 
 ```
@@ -104,6 +104,9 @@ juice_logo_name = "Juice"
 juice_logo_path = "juice.svg"
 juice_extra_menu = [
     { title = "Github", link = "https://github.com/huhu/juice"}
+]
+juice_exclude_menu = [
+    "exclude_from_nav"
 ]
 repository_url = "https://github.com/huhu/juice"
 ```

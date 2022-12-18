@@ -22,4 +22,8 @@ juice_logo_path = "juice.svg"
 juice_extra_menu = [
     { title = "Github", link = "https://github.com/huhu/juice" }
 ]
+# Add page titles here to exclude them from the nav section (case sensitive)
+juice_exclude_menu = [
+    "exclude_from_nav"
+]
 repository_url = "https://github.com/huhu/juice"
