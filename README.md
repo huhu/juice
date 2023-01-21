@@ -67,23 +67,7 @@ weight = 2
 
 You can override theme variable by creating a file named `_variables.html` in your `templates` directory.
 
-```html
-<style>
-    :root {
-        /* Primary theme color */
-        --primary-color: #FED43F;
-        /* Primary theme text color */
-        --primary-text-color: #543631;
-        /* Primary theme link color */
-        --primary-link-color: #F9BB2D;
-        /* Secondary color: the background body color */
-        --secondary-color: #fcfaf6;
-        --secondary-text-color: #303030;
-        /* Highlight text color of table of content */
-        --toc-highlight-text-color: #d46e13;
-    }
-</style>
-```
+See the default value [here](./templates/_variables.html)
 
 ### Favicon
 
