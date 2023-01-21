@@ -31,7 +31,7 @@ p > img {
 
 header {
   background-color: var(--primary-color);
-  color: black;
+  color: var(--primary-text-color);
   padding: 20px 50px;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ header {
   font-weight: bold;
 
   &:hover {
-    color: #000;
+    color: var(--primary-text-color-over);
     text-decoration: underline;
   }
 }
@@ -118,7 +118,7 @@ main {
 .toc-sticky {
   border-radius: 3px;
   border-top: 5px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--toc-background-color);
   position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
