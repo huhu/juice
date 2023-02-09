@@ -9,7 +9,7 @@ sort_by = "weight"
 
 - Build for product sites
 - Simple and intuitive structure
-- Clean and elegant design 
+- Clean and elegant design
 - Responsive and mobile device compatible
 - Customize and extend friendly
 
@@ -54,7 +54,7 @@ You can customize your **hero** by using `hero` block in the `templates/index.ht
 ### Page
 
 Every markdown file located in `content` directory will become a **Page**. There also will display as
-a navigate link on the top-right corner. 
+a navigate link on the top-right corner.
 You can change the frontmatter's `weight` value to sort the order (ascending order).
 
 ```
@@ -89,12 +89,33 @@ You can override theme variable by creating a file named `_variables.html` in yo
 ```
 
 ### Favicon
+The same way as changing the `hero` block in the `templates/index.html`, you can change the **favicon**.
 
 ```html
 {% extends "juice/templates/index.html" %}
 {% block favicon %}
     <link rel="icon" type="image/png" href="/favicon.ico">
 {% endblock favicon %}
+```
+
+### Fonts
+Copy the `juice.scss` and `_text.scss` files from `template/juice/sass/` to local `sass/`-dir. And change the 
+`@import`-lines.
+
+```scss
+@import "../themes/juice/sass/_ultility.scss";
+@import "_text.scss";
+@import "../themes/juice/sass/_markdown.scss";
+...
+```
+and then load the fonts in the `templates/index.html`.
+```html
+{% extends "juice/templates/index.html" %}
+{% block fonts %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" 
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+{% endblock fonts %}
 ```
 
 # Configuration
