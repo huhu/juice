@@ -80,21 +80,12 @@ The same way as changing the `hero` block in the `templates/index.html`, you can
 ```
 
 ### Fonts
-Copy the `juice.scss` and `_text.scss` files from `template/juice/sass/` to local `sass/`-dir. And change the 
-`@import`-lines.
+If you changed the `--xy-font-family`-variable in `_variables.html`, you have to load the mentioned fonts in the `templates/index.html`.
 
-```scss
-@import "../themes/juice/sass/_ultility.scss";
-@import "_text.scss";
-@import "../themes/juice/sass/_markdown.scss";
-...
-```
-and then load the fonts in the `templates/index.html`.
 ```html
 {% extends "juice/templates/index.html" %}
 {% block fonts %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" 
-        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
 {% endblock fonts %}
 ```
