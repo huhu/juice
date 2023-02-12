@@ -9,7 +9,7 @@ sort_by = "weight"
 
 - Build for product sites
 - Simple and intuitive structure
-- Clean and elegant design 
+- Clean and elegant design
 - Responsive and mobile device compatible
 - Customize and extend friendly
 
@@ -54,7 +54,7 @@ You can customize your **hero** by using `hero` block in the `templates/index.ht
 ### Page
 
 Every markdown file located in `content` directory will become a **Page**. There also will display as
-a navigate link on the top-right corner. 
+a navigate link on the top-right corner.
 You can change the frontmatter's `weight` value to sort the order (ascending order).
 
 ```
@@ -77,6 +77,7 @@ You can override theme variable by creating a file named `_variables.html` in yo
         --primary-color: #FED43F;
         /* Primary theme text color */
         --primary-text-color: #543631;
+        --primary-text-color-over: #000;
         /* Primary theme link color */
         --primary-link-color: #F9BB2D;
         /* Secondary color: the background body color */
@@ -84,17 +85,37 @@ You can override theme variable by creating a file named `_variables.html` in yo
         --secondary-text-color: #303030;
         /* Highlight text color of table of content */
         --toc-highlight-text-color: #d46e13;
+        --toc-background-color: white;
+        --code-color: #4a4a4a;
+        --code-background-color: white;
+        --shadow-color: #ddd;
+        /* Font used for headers (h1 & h2) */
+        --header-font-family: "Fira Sans", sans-serif;
+        /* Font used for text */
+        --text-font-family: "Fira Sans", sans-serif;
     }
 </style>
 ```
 
 ### Favicon
+The same way as changing the `hero` block in the `templates/index.html`, you can change the **favicon**.
 
 ```html
 {% extends "juice/templates/index.html" %}
 {% block favicon %}
     <link rel="icon" type="image/png" href="/favicon.ico">
 {% endblock favicon %}
+```
+
+### Fonts
+If you changed the `--xy-font-family`-variable in `_variables.html`, you have to load the mentioned fonts in the `templates/index.html`.
+
+```html
+{% extends "juice/templates/index.html" %}
+{% block fonts %}
+    <link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+{% endblock fonts %}
 ```
 
 # Configuration

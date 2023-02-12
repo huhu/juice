@@ -37,7 +37,7 @@ theme = "juice"
 ### Hero
 
 **Juice** is designed for product websites, hence we let **hero** part fills whole of screen.
-You can customize your **hero** by using `hero` block in the `index.html`.
+You can customize your **hero** by using `hero` block in the `templates/index.html`.
 
 ```html
 {% extends "juice/templates/index.html" %}
@@ -70,12 +70,24 @@ You can override theme variable by creating a file named `_variables.html` in yo
 See the default value [here](./templates/_variables.html)
 
 ### Favicon
+The same way as changing the `hero` block in the `templates/index.html`, you can change the **favicon**.
 
 ```html
 {% extends "juice/templates/index.html" %}
 {% block favicon %}
     <link rel="icon" type="image/png" href="/favicon.ico">
 {% endblock favicon %}
+```
+
+### Fonts
+If you changed the `--xy-font-family`-variable in `_variables.html`, you have to load the mentioned fonts in the `templates/index.html`.
+
+```html
+{% extends "juice/templates/index.html" %}
+{% block fonts %}
+    <link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+{% endblock fonts %}
 ```
 
 # Configuration
@@ -100,7 +112,7 @@ repository_url = "https://github.com/huhu/juice"
 **Juice** have some builtin shortcodes available in `templates/shortcodes` directory.
 
 - `issue(id)` - A shortcode to render issue url, e.g. `issue(id=1)` would render to the link `https://github.com/huhu/juice/issue/1`.
-
+  
 > The `repository_url` is required.
 
 # Showcases
