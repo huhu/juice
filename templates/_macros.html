@@ -9,7 +9,7 @@
 
 <nav>
     {% for page in section.pages %}
-    {% if config.extra.juice_exclude_menu is not containing(page.title) %}
+    {% if config.extra.juice_exclude_menu and config.extra.juice_exclude_menu is not containing(page.title) %}
     <a class="nav-item subtitle-text" href="{{ page.permalink | safe }}">{{ page.title }}</a>
     {% endif %}
     {% endfor %}
