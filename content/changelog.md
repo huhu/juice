@@ -4,6 +4,16 @@ description = "Changelog"
 weight = 2
 +++
 
+# v0.7.0 - 2024-06-01
+
+- Highlight TOC with IntersectionObserver API
+- Avoid escaping `permalink`s and `menu.link` {{ issue(id=11) }}
+- Allow excluding pages from the nav section {{ issue(id=13) }}
+- Implements dark mode {{ issue(id=14) }}
+- Make fonts changeable. Fixes #10 {{ issue(id=15) }}
+- Uses the language defined in the config file. {{ issue(id=17) }}
+
+
 # v0.6.0 - 2021-10-05
 
 - Add `favicon` block.
