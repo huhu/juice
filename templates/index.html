@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/normalize.css">
     <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
     {% block head %}
+    <link rel="stylesheet" href="{{ get_url(path="carbon.css") }}">
     {% endblock head %}
 </head>
 
@@ -105,6 +106,10 @@
         </div>
 
         {% block sidebar %}
+        <div class="sidebar">
+            Your can customize the sidebar.
+            <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEBIL27E&placement=extensionsh" id="_carbonads_js"></script>
+        </div>
         {% endblock sidebar %}
     </main>
 
