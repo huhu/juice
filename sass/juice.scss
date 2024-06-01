@@ -191,4 +191,16 @@ footer {
     display: none;
   }
 
+  main {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 215px;
+    margin: 2rem auto 0;
+  }
+
 }
