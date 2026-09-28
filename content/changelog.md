@@ -7,18 +7,18 @@ weight = 2
 # v0.7.0 - 2024-06-01
 
 - Highlight TOC with IntersectionObserver API
-- Avoid escaping `permalink`s and `menu.link` {{ issue(id=11) }}
-- Allow excluding pages from the nav section {{ issue(id=13) }}
-- Implements dark mode {{ issue(id=14) }}
-- Make fonts changeable. Fixes #10 {{ issue(id=15) }}
-- Uses the language defined in the config file. {{ issue(id=17) }}
+- Avoid escaping `permalink`s and `menu.link` {{ <juice.issue id="11" /> }}
+- Allow excluding pages from the nav section {{ <juice.issue id="13" /> }}
+- Implements dark mode {{ <juice.issue id="14"/> }}
+- Make fonts changeable. Fixes #10 {{ <juice.issue id="15"/> }}
+- Uses the language defined in the config file. {{ <juice.issue id="17"/> }}
 
 
 # v0.6.0 - 2021-10-05
 
 - Add `favicon` block.
-- Always align footer bottom. {{ issue(id=4) }}
-- Support config favicon. Fixes {{ issue(id=5) }}.
+- Always align footer bottom. {{ <juice.issue id="4"/> }}
+- Support config favicon. Fixes {{ <juice.issue id="5"/> }}.
 - Table of Content supports auto-scroll if the list is too long.
 
 # v0.5.0 - 2021-03-02
@@ -31,7 +31,7 @@ weight = 2
 # v0.4.0 - 2020-11-18
 
 - Prevent showcase images be included by downstream Zola project.
-- Fix TOC highlight in localhost mode. See {{ issue(id=1) }}.
+- Fix TOC highlight in localhost mode. See {{ <juice.issue id="1"/> }}.
 - Hide TOC for empty markdown content page.
 
 # v0.3.0 - 2020-07-17

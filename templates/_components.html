@@ -1,4 +1,4 @@
-{% macro render_header() %}
+{% component render_header(@config) %}
 {% set section = get_section(path="_index.md") %}
 <a href="{{ section.permalink | safe }}">
     <div class="logo">
@@ -10,7 +10,7 @@
 <nav>
     {% for page in section.pages %}
     {% set exclude_menu = config.extra.juice_exclude_menu | default(value=[]) %}
-    {% if exclude_menu is not containing(page.title) %}
+    {% if exclude_menu is not containing(pat=page.title) %}
     <a class="nav-item subtitle-text" href="{{ page.permalink | safe }}">{{ page.title }}</a>
     {% endif %}
     {% endfor %}
@@ -20,4 +20,8 @@
         {% endfor %}
     {% endif %}
 </nav>
-{% endmacro render_header %}
+{% endcomponent %}
+
+{% component juice.issue(id, @config)  %}
+<a href="{{ config.extra.repository_url }}/issues/{{ id }}">#{{ id }}</a>
+{% endcomponent %}

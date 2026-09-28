@@ -12,10 +12,11 @@ build_search_index = false
 
 # Configuration of the Markdown rendering
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
-highlight_theme = "inspired-github"
+
+[markdown.highlighting]
+# Theme can be customised by setting the `theme` variable.
+# https://www.getzola.org/documentation/content/syntax-highlighting/
+theme = "light-plus"
 
 [extra]
 juice_logo_name = "Juice"
