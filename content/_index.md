@@ -44,9 +44,9 @@ theme = "juice"
 You can customize your **hero** by using `hero` block in the `templates/index.html`.
 
 ```html
-{% extends "juice/templates/index.html" %} {% block hero %}
+{{ '{%' }} extends "juice/templates/index.html" %} {{ '{%' }} block hero %}
 <div>Your cool hero html...</div>
-{% endblock hero %}
+{{ '{%' }} endblock hero %}
 ```
 
 ### Page
@@ -100,11 +100,11 @@ You can override theme variable by creating a file named `_variables.html` in yo
 The same way as changing the `hero` block in the `templates/index.html`, you can change the **favicon**.
 
 ```html
-{% extends "juice/templates/index.html" %} 
+{{ '{%' }} extends "juice/templates/index.html" %} 
 
-{% block favicon %}
+{{ '{%' }} block favicon %}
 <link rel="icon" type="image/png" href="/favicon.ico" />
-{% endblock favicon %}
+{{ '{%' }} endblock favicon %}
 ```
 
 ### Fonts
@@ -112,9 +112,9 @@ The same way as changing the `hero` block in the `templates/index.html`, you can
 If you changed the `--xy-font-family`-variable in `_variables.html`, you have to load the mentioned fonts in the `templates/index.html`.
 
 ```html
-{% extends "juice/templates/index.html" %}
+{{ '{%' }} extends "juice/templates/index.html" %}
 
-{% block fonts %}
+{{ '{%' }} block fonts %}
 <link
   href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
   rel="stylesheet"
@@ -124,7 +124,7 @@ If you changed the `--xy-font-family`-variable in `_variables.html`, you have to
   href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap"
   rel="stylesheet"
 />
-{% endblock fonts %}
+{{ '{%' }} endblock fonts %}
 ```
 
 ### Sidebar
@@ -132,13 +132,13 @@ If you changed the `--xy-font-family`-variable in `_variables.html`, you have to
 **Juice** has a sidebar on the right side of the screen. You can customize it by using `sidebar` block in the `templates/index.html`.
 
 ```html
-{% extends "juice/templates/index.html" %} 
+{{ '{%' }} extends "juice/templates/index.html" %} 
 
-{% block sidebar %}
+{{ '{%' }} block sidebar %}
 <div>
   Your cool sidebar
 </div>
-{% endblock sidebar %}
+{{ '{%' }} endblock sidebar %}
 ```
 
 # Configuration

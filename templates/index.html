@@ -1,4 +1,3 @@
-{% import "_macros.html" as macros %}
 <!DOCTYPE html>
 <html lang="{{ lang }}">
 
@@ -7,14 +6,14 @@
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% block favicon %}
-    <link rel="icon" type="image/png" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="{{ get_url(path="favicon.ico") }}">
     {% endblock favicon %}
     {% include "_variables.html" %}
     {% block fonts %}
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
     {% endblock fonts %}
-    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="{{ get_url(path="normalize.css") }}">
     <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
     {% block head %}
     <link rel="stylesheet" href="{{ get_url(path="carbon.css") }}">
@@ -25,7 +24,7 @@
     {% block header %}
 
     <header class="pos-absolute" style="background-color: transparent">
-        {{ macros::render_header() }}
+        {{ <render_header /> }}
     </header>
 
     <div class="hero">
@@ -73,29 +72,6 @@
 
     <main>
         {% block toc %}
-        {% if section.toc %}
-        {% set toc = section.toc %}
-        {% elif page.toc %}
-        {% set toc = page.toc %}
-        {% endif %}
-        {% if toc %}
-        <div class="toc">
-            <div class="toc-sticky">
-                {% for h in toc %}
-                <div class="toc-item">
-                    <a class="subtext" href="{{h.permalink | safe}}">{{ h.title }}</a>
-                </div>
-                {% if h.children %}
-                {% for h2 in h.children %}
-                <div class="toc-item-child">
-                    <a class="subtext" href="{{h2.permalink | safe}}"><small>- {{ h2.title }}</small></a>
-                </div>
-                {% endfor %}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
         {% endblock toc %}
 
         <div class="content text">
